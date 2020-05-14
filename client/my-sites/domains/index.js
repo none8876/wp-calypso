@@ -163,7 +163,7 @@ export default function () {
 
 	if ( config.isEnabled( 'manage/all-domains' ) ) {
 		page(
-			paths.domainManagementRoot(),
+			paths.domainManagementUserRoot(),
 			...getCommonHandlers( { noSitePath: false } ),
 			domainManagementController.domainManagementListAllSites,
 			makeLayout,
