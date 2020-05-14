@@ -472,7 +472,6 @@ class AdsFormSettings extends Component {
 
 		return (
 			<div>
-				<hr />
 				<FormSectionHeading>{ translate( 'Privacy and Consent' ) }</FormSectionHeading>
 				<FormFieldset>
 					<SupportInfo
@@ -548,13 +547,13 @@ class AdsFormSettings extends Component {
 								placeholder="https://"
 							/>
 							<FormSettingExplanation>
-								Adds a link to your privacy policy to the bottom of the CCPA notice popup
-								(optional).
+								{ translate(
+									'Adds a link to your privacy policy to the bottom of the CCPA notice popup (optional).'
+								) }
 							</FormSettingExplanation>
 						</FormFieldset>
 					</div>
 				) }
-				<hr />
 			</div>
 		);
 	}

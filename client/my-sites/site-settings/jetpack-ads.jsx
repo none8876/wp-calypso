@@ -230,8 +230,9 @@ class JetpackAds extends Component {
 									placeholder="https://"
 								/>
 								<FormSettingExplanation>
-									Adds a link to your privacy policy to the bottom of the CCPA notice popup
-									(optional).
+									{ translate(
+										'Adds a link to your privacy policy to the bottom of the CCPA notice popup (optional).'
+									) }
 								</FormSettingExplanation>
 							</FormFieldset>
 						</div>
